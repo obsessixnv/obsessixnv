@@ -1,6 +1,6 @@
 <div align="center">
 
-# Roman Kayank
+# Roman Yankovych
 
 ### Elcano AI Developer | Forward Deployed Engineer
 

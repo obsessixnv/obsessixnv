@@ -3,45 +3,52 @@
 </div>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&weight=600&size=27&duration=3400&pause=900&color=B8860B&center=true&vCenter=true&width=760&lines=Forward+Deployed+Engineer+at+Elcano;I+navigate.+Victoria+sails;Autonomous+agents+%C2%B7+pipelines+%C2%B7+production+AI;Plus+Ultra+%E2%80%94+further+beyond+the+known" alt="Plus Ultra" />
+  <img src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&weight=600&size=27&duration=3400&pause=900&color=B8860B&center=true&vCenter=true&width=760&lines=Forward+Deployed+Engineer+at+Elcano;Composer+of+autonomous+agents;Agentic+systems+%C2%B7+pipelines+%C2%B7+production+AI;Festina+lente+%E2%80%94+make+haste%2C+slowly" alt="Ostinato Rigore" />
 </p>
 
 <p align="center">
-  <a href="mailto:romkayank@gmail.com"><img alt="Dispatch" src="https://img.shields.io/badge/Dispatch-romkayank-3A2A14?style=for-the-badge&logo=gmail&logoColor=E8D5A8&labelColor=2B1D0E" /></a>
-  <a href="https://github.com/obsessixnv"><img alt="Helm" src="https://img.shields.io/badge/Helm-obsessixnv-3A2A14?style=for-the-badge&logo=github&logoColor=E8D5A8&labelColor=2B1D0E" /></a>
-  <img alt="Sightings" src="https://komarev.com/ghpvc/?username=obsessixnv&label=SIGHTINGS&color=8a5a0a&style=for-the-badge" />
+  <a href="mailto:romkayank@gmail.com"><img alt="Correspondence" src="https://img.shields.io/badge/Correspondence-romkayank-3A2A14?style=for-the-badge&logo=gmail&logoColor=E8D5A8&labelColor=2B1D0E" /></a>
+  <a href="https://github.com/obsessixnv"><img alt="Atelier" src="https://img.shields.io/badge/Atelier-obsessixnv-3A2A14?style=for-the-badge&logo=github&logoColor=E8D5A8&labelColor=2B1D0E" /></a>
+  <img alt="Beholders" src="https://komarev.com/ghpvc/?username=obsessixnv&label=BEHOLDERS&color=8a5a0a&style=for-the-badge" />
 </p>
 
 <div align="center"><sub>⚜ &nbsp;·&nbsp; ❧ &nbsp;·&nbsp; ✦ &nbsp;·&nbsp; ❧ &nbsp;·&nbsp; ⚜</sub></div>
 
 ## ❧ Ex Libris
 
-> *Primus circumdedisti me* — **"You were the first to encircle me."**
-> <br><sub>— the motto granted to Juan Sebastián Elcano, who closed the first circle around the world.</sub>
+> *Ostinato rigore* — **"stubborn rigor."**
+> <br><sub>— Leonardo da Vinci's personal maxim.</sub>
 
-I'm a **Forward Deployed Engineer at [Elcano](https://github.com/obsessixnv)**, charting agentic AI systems in waters where the maps run out. Like the navigator the company is named for — the first to *finish* the voyage Magellan began — my craft is about reaching port: turning a plain-English brief into autonomous agents, data pipelines, and production tools that actually arrive.
+I'm a **Forward Deployed Engineer at [Elcano](https://github.com/obsessixnv)**, working in the old Renaissance manner — part engineer, part craftsman — building agentic AI systems with stubborn rigor and a taste for elegant proportion.
 
-I sit close to the problem. I translate messy requirements into clean architecture, useful automation, and software that ships, gets watched, and gets better with real feedback. Our agent **Victoria** does the dense work — *I navigate.*
+I sit close to the problem. I translate messy requirements into clean architecture, useful automation, and software that ships, gets watched, and gets better with real feedback — engineering, product thinking, and applied AI worked on the same bench. Our agent **Victoria** does the dense work; I compose the systems around her.
 
 <div align="center"><sub>⚜ &nbsp;·&nbsp; ❧ &nbsp;·&nbsp; ✦ &nbsp;·&nbsp; ❧ &nbsp;·&nbsp; ⚜</sub></div>
 
-## ⚓ The Expedition — *what I chart*
+## ❦ The Commissions — *what I make*
 
 - **❖**&nbsp; **Agentic workflows & LLM systems** — autonomous crews that take a task from intent to outcome, end to end.
-- **❖**&nbsp; **Data pipelines & integrations** — the currents that carry data to where it's needed, reliably.
+- **❖**&nbsp; **Data pipelines & integrations** — the quiet plumbing that moves data reliably to where it's needed.
 - **❖**&nbsp; **Production backend & tooling** — adtech products, operational instruments, growth-focused systems.
-- **❖**&nbsp; **Rapid prototyping** — prototype, validate, harden, deploy — at startup speed.
-- **❖**&nbsp; **Ambiguity → software** — turning fog and rumor into a reliable course.
+- **❖**&nbsp; **Rapid prototyping** — sketch, validate, harden, deploy — at studio speed.
+- **❖**&nbsp; **Ambiguity → software** — turning fog and rumor into a reliable, finished work.
 
 <div align="center"><sub>⚜ &nbsp;·&nbsp; ❧ &nbsp;·&nbsp; ✦ &nbsp;·&nbsp; ❧ &nbsp;·&nbsp; ⚜</sub></div>
 
-## 🧭 Instruments Aboard the *Victoria*
+## ✦ The Atelier — *instruments & pigments*
 
-**Languages**
+**Languages & Frameworks**
 
 <p>
   <img src="https://img.shields.io/badge/Go-3A2A14?style=for-the-badge&logo=go&logoColor=E8D5A8" />
   <img src="https://img.shields.io/badge/Python-3A2A14?style=for-the-badge&logo=python&logoColor=E8D5A8" />
+  <img src="https://img.shields.io/badge/TypeScript-3A2A14?style=for-the-badge&logo=typescript&logoColor=E8D5A8" />
+  <img src="https://img.shields.io/badge/JavaScript-3A2A14?style=for-the-badge&logo=javascript&logoColor=E8D5A8" />
+  <img src="https://img.shields.io/badge/React-3A2A14?style=for-the-badge&logo=react&logoColor=E8D5A8" />
+  <img src="https://img.shields.io/badge/Next.js-3A2A14?style=for-the-badge&logo=nextdotjs&logoColor=E8D5A8" />
+  <img src="https://img.shields.io/badge/Vite-3A2A14?style=for-the-badge&logo=vite&logoColor=E8D5A8" />
+  <img src="https://img.shields.io/badge/React%20Native-3A2A14?style=for-the-badge&logo=react&logoColor=E8D5A8" />
+  <img src="https://img.shields.io/badge/Chi%20Router-3A2A14?style=for-the-badge&logo=go&logoColor=E8D5A8" />
 </p>
 
 **Oracles — models consulted**
@@ -53,41 +60,75 @@ I sit close to the problem. I translate messy requirements into clean architectu
   <img src="https://img.shields.io/badge/Kimi-3A2A14?style=for-the-badge&logoColor=E8D5A8" />
 </p>
 
-**The Craft — how agents are built**
+**AI & Automation**
 
 <p>
   <img src="https://img.shields.io/badge/Model%20Context%20Protocol-3A2A14?style=for-the-badge&logoColor=E8D5A8" />
   <img src="https://img.shields.io/badge/Agentic%20Workflows-3A2A14?style=for-the-badge&logoColor=E8D5A8" />
   <img src="https://img.shields.io/badge/LLM%20Tool--Calling-3A2A14?style=for-the-badge&logoColor=E8D5A8" />
   <img src="https://img.shields.io/badge/Prompt%20Engineering-3A2A14?style=for-the-badge&logoColor=E8D5A8" />
+  <img src="https://img.shields.io/badge/OpenRouter-3A2A14?style=for-the-badge&logoColor=E8D5A8" />
+  <img src="https://img.shields.io/badge/Multi--Model%20Fallbacks-3A2A14?style=for-the-badge&logoColor=E8D5A8" />
+  <img src="https://img.shields.io/badge/YAML%20Protocol%20Design-3A2A14?style=for-the-badge&logo=yaml&logoColor=E8D5A8" />
+  <img src="https://img.shields.io/badge/httpx-3A2A14?style=for-the-badge&logo=python&logoColor=E8D5A8" />
+  <img src="https://img.shields.io/badge/pytest-3A2A14?style=for-the-badge&logo=pytest&logoColor=E8D5A8" />
   <img src="https://img.shields.io/badge/Data%20Pipelines-3A2A14?style=for-the-badge&logoColor=E8D5A8" />
+</p>
+
+**Platforms & APIs — programmatic AdTech**
+
+<p>
+  <img src="https://img.shields.io/badge/Index%20Exchange-3A2A14?style=for-the-badge&logoColor=E8D5A8" />
+  <img src="https://img.shields.io/badge/OpenX-3A2A14?style=for-the-badge&logoColor=E8D5A8" />
+  <img src="https://img.shields.io/badge/Magnite-3A2A14?style=for-the-badge&logoColor=E8D5A8" />
+  <img src="https://img.shields.io/badge/Xandr-3A2A14?style=for-the-badge&logoColor=E8D5A8" />
+  <img src="https://img.shields.io/badge/TripleLift-3A2A14?style=for-the-badge&logoColor=E8D5A8" />
+  <img src="https://img.shields.io/badge/Media.net-3A2A14?style=for-the-badge&logoColor=E8D5A8" />
+  <img src="https://img.shields.io/badge/PubMatic-3A2A14?style=for-the-badge&logoColor=E8D5A8" />
+  <img src="https://img.shields.io/badge/Adverity-3A2A14?style=for-the-badge&logoColor=E8D5A8" />
+</p>
+
+**Design, Tools & Infrastructure**
+
+<p>
+  <img src="https://img.shields.io/badge/Design%20Systems-3A2A14?style=for-the-badge&logoColor=E8D5A8" />
+  <img src="https://img.shields.io/badge/Design%20Tokens-3A2A14?style=for-the-badge&logoColor=E8D5A8" />
+  <img src="https://img.shields.io/badge/Figma-3A2A14?style=for-the-badge&logo=figma&logoColor=E8D5A8" />
+  <img src="https://img.shields.io/badge/Storybook-3A2A14?style=for-the-badge&logo=storybook&logoColor=E8D5A8" />
+  <img src="https://img.shields.io/badge/MUI-3A2A14?style=for-the-badge&logo=mui&logoColor=E8D5A8" />
+  <img src="https://img.shields.io/badge/HTML%20Email-3A2A14?style=for-the-badge&logoColor=E8D5A8" />
+  <img src="https://img.shields.io/badge/Accessibility-3A2A14?style=for-the-badge&logoColor=E8D5A8" />
+  <img src="https://img.shields.io/badge/Docker-3A2A14?style=for-the-badge&logo=docker&logoColor=E8D5A8" />
+  <img src="https://img.shields.io/badge/Caddy-3A2A14?style=for-the-badge&logoColor=E8D5A8" />
+  <img src="https://img.shields.io/badge/Git-3A2A14?style=for-the-badge&logo=git&logoColor=E8D5A8" />
+  <img src="https://img.shields.io/badge/Claude%20Code-3A2A14?style=for-the-badge&logo=anthropic&logoColor=E8D5A8" />
 </p>
 
 <div align="center"><sub>⚜ &nbsp;·&nbsp; ❧ &nbsp;·&nbsp; ✦ &nbsp;·&nbsp; ❧ &nbsp;·&nbsp; ⚜</sub></div>
 
-## 📜 The Ship's Log — *marginalia*
+## ✺ Marginalia
 
 <details>
-  <summary><b>❧ &nbsp;On the name "Elcano"</b></summary>
+  <summary><b>❧ &nbsp;Ostinato rigore</b></summary>
   <br>
-  Juan Sebastián Elcano completed the first <b>circumnavigation of the globe</b> in 1522, aboard the carrack <i>Victoria</i> — the only one of Magellan's fleet of five to come home. Emperor Charles V granted him a coat of arms bearing a globe and the words <i>Primus circumdedisti me</i>. We build in that spirit: <b>finish the circle.</b>
+  <i>"Stubborn rigor."</i> Leonardo da Vinci's personal motto — the conviction that mastery is won by relentless, patient discipline. It's how I like to build: not clever once, but right, and rigorous, and finished.
 </details>
 
 <details>
-  <summary><b>⚓ &nbsp;What a Forward Deployed Engineer does</b></summary>
+  <summary><b>❦ &nbsp;On the name "Elcano"</b></summary>
   <br>
-  Stands at the bow, nearest the unknown. Translates plain-English requirements into clean architecture and useful automation, ships production-ready software, then watches it sail and trims it with real feedback. Engineering, product thinking, and applied AI on the same deck.
+  Juan Sebastián Elcano completed the first <b>circumnavigation of the globe</b> in 1522. Emperor Charles V granted him a coat of arms bearing a globe and the words <i>Primus circumdedisti me</i> — <i>"you were the first to encircle me."</i> We build in that spirit: <b>finish what others only begin.</b> Our agent <b>Victoria</b> takes her name from his ship.
 </details>
 
 <details>
-  <summary><b>✦ &nbsp;Plus Ultra</b></summary>
+  <summary><b>✦ &nbsp;Nulla dies sine linea</b></summary>
   <br>
-  <i>"Further beyond."</i> Charles V's motto, struck against the Pillars of Hercules that once marked the edge of the known world. The frontier kept moving. It still does — only now it's <b>agents</b>.
+  <i>"No day without a line."</i> The maxim of Apelles, the great painter of antiquity, who let no day pass without drawing at least one line — revived by the Renaissance as the creed of daily practice. Ship something every day; the work compounds.
 </details>
 
 <div align="center"><sub>⚜ &nbsp;·&nbsp; ❧ &nbsp;·&nbsp; ✦ &nbsp;·&nbsp; ❧ &nbsp;·&nbsp; ⚜</sub></div>
 
-## 🗺️ The Cartographer's Ledger
+## ❖ The Codex — *by the numbers*
 
 <div align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=obsessixnv&show_icons=true&hide_border=false&include_all_commits=true&count_private=true&bg_color=00000000&title_color=B8860B&text_color=8a6d3b&icon_color=B8860B&border_color=B8860B" alt="stats" />
@@ -95,14 +136,14 @@ I sit close to the problem. I translate messy requirements into clean architectu
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=obsessixnv&hide_border=false&background=00000000&stroke=B8860B&ring=B8860B&fire=8a5a0a&currStreakLabel=B8860B&sideLabels=8a6d3b&dates=8a6d3b&currStreakNum=8a6d3b&sideNums=8a6d3b&titleColor=B8860B&border=B8860B" alt="streak" />
+  <img src="https://streak-stats.demolab.com/?user=obsessixnv&hide_border=false&background=00000000&stroke=B8860B&ring=B8860B&fire=8a5a0a&currStreakLabel=B8860B&sideLabels=8a6d3b&dates=8a6d3b&currStreakNum=8a6d3b&sideNums=8a6d3b&titleColor=B8860B&border=B8860B" alt="streak" />
 </div>
 
 <div align="center"><sub>⚜ &nbsp;·&nbsp; ❧ &nbsp;·&nbsp; ✦ &nbsp;·&nbsp; ❧ &nbsp;·&nbsp; ⚜</sub></div>
 
-## ⛵ Send a Dispatch
+## ❧ Correspondence
 
-If you're building with **AI, automation, data, or full-stack** — I'm always open to an interesting voyage.
+If you're building with **AI, automation, data, or full-stack** — I'm always glad of a worthy commission.
 
 <p>
   <a href="mailto:romkayank@gmail.com"><img alt="Email" src="https://img.shields.io/badge/romkayank@gmail.com-3A2A14?style=for-the-badge&logo=gmail&logoColor=E8D5A8" /></a>
@@ -110,5 +151,5 @@ If you're building with **AI, automation, data, or full-stack** — I'm always o
 </p>
 
 <div align="center">
-  <img src="assets/footer.svg" width="100%" alt="Navigare necesse est" />
+  <img src="assets/footer.svg" width="100%" alt="Festina lente — Ars longa, vita brevis" />
 </div>

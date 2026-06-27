@@ -7,9 +7,9 @@
 </p>
 
 <p align="center">
-  <a href="mailto:romkayank@gmail.com"><img alt="Correspondence" src="https://img.shields.io/badge/Correspondence-romkayank-3A2A14?style=for-the-badge&logo=gmail&logoColor=E8D5A8&labelColor=2B1D0E" /></a>
-  <a href="https://github.com/obsessixnv"><img alt="Atelier" src="https://img.shields.io/badge/Atelier-obsessixnv-3A2A14?style=for-the-badge&logo=github&logoColor=E8D5A8&labelColor=2B1D0E" /></a>
-  <img alt="Beholders" src="https://komarev.com/ghpvc/?username=obsessixnv&label=BEHOLDERS&color=8a5a0a&style=for-the-badge" />
+  <a href="mailto:romkayank@gmail.com"><img alt="Correspondence" src="https://img.shields.io/badge/Correspondence-romkayank-1a120b?style=for-the-badge&logo=gmail&logoColor=ECE0C6&labelColor=2a1c0e" /></a>
+  <a href="https://github.com/obsessixnv"><img alt="Atelier" src="https://img.shields.io/badge/Atelier-obsessixnv-1a120b?style=for-the-badge&logo=github&logoColor=ECE0C6&labelColor=2a1c0e" /></a>
+  <img alt="Beholders" src="https://komarev.com/ghpvc/?username=obsessixnv&label=BEHOLDERS&color=7c2b22&style=for-the-badge" />
 </p>
 
 <div align="center"><sub>⚜ &nbsp;·&nbsp; ❧ &nbsp;·&nbsp; ✦ &nbsp;·&nbsp; ❧ &nbsp;·&nbsp; ⚜</sub></div>
@@ -40,68 +40,68 @@ I sit close to the problem. I translate messy requirements into clean architectu
 **Languages & Frameworks**
 
 <p>
-  <img src="https://img.shields.io/badge/Go-3A2A14?style=for-the-badge&logo=go&logoColor=E8D5A8" />
-  <img src="https://img.shields.io/badge/Python-3A2A14?style=for-the-badge&logo=python&logoColor=E8D5A8" />
-  <img src="https://img.shields.io/badge/TypeScript-3A2A14?style=for-the-badge&logo=typescript&logoColor=E8D5A8" />
-  <img src="https://img.shields.io/badge/JavaScript-3A2A14?style=for-the-badge&logo=javascript&logoColor=E8D5A8" />
-  <img src="https://img.shields.io/badge/React-3A2A14?style=for-the-badge&logo=react&logoColor=E8D5A8" />
-  <img src="https://img.shields.io/badge/Next.js-3A2A14?style=for-the-badge&logo=nextdotjs&logoColor=E8D5A8" />
-  <img src="https://img.shields.io/badge/Vite-3A2A14?style=for-the-badge&logo=vite&logoColor=E8D5A8" />
-  <img src="https://img.shields.io/badge/React%20Native-3A2A14?style=for-the-badge&logo=react&logoColor=E8D5A8" />
-  <img src="https://img.shields.io/badge/Chi%20Router-3A2A14?style=for-the-badge&logo=go&logoColor=E8D5A8" />
+  <img src="https://img.shields.io/badge/Go-1a120b?style=for-the-badge&logo=go&logoColor=ECE0C6" />
+  <img src="https://img.shields.io/badge/Python-1a120b?style=for-the-badge&logo=python&logoColor=ECE0C6" />
+  <img src="https://img.shields.io/badge/TypeScript-1a120b?style=for-the-badge&logo=typescript&logoColor=ECE0C6" />
+  <img src="https://img.shields.io/badge/JavaScript-1a120b?style=for-the-badge&logo=javascript&logoColor=ECE0C6" />
+  <img src="https://img.shields.io/badge/React-1a120b?style=for-the-badge&logo=react&logoColor=ECE0C6" />
+  <img src="https://img.shields.io/badge/Next.js-1a120b?style=for-the-badge&logo=nextdotjs&logoColor=ECE0C6" />
+  <img src="https://img.shields.io/badge/Vite-1a120b?style=for-the-badge&logo=vite&logoColor=ECE0C6" />
+  <img src="https://img.shields.io/badge/React%20Native-1a120b?style=for-the-badge&logo=react&logoColor=ECE0C6" />
+  <img src="https://img.shields.io/badge/Chi%20Router-1a120b?style=for-the-badge&logo=go&logoColor=ECE0C6" />
 </p>
 
 **Oracles — models consulted**
 
 <p>
-  <img src="https://img.shields.io/badge/OpenAI-3A2A14?style=for-the-badge&logo=openai&logoColor=E8D5A8" />
-  <img src="https://img.shields.io/badge/Claude-3A2A14?style=for-the-badge&logo=anthropic&logoColor=E8D5A8" />
-  <img src="https://img.shields.io/badge/Gemini-3A2A14?style=for-the-badge&logo=googlegemini&logoColor=E8D5A8" />
-  <img src="https://img.shields.io/badge/Kimi-3A2A14?style=for-the-badge&logoColor=E8D5A8" />
+  <img src="https://img.shields.io/badge/OpenAI-1a120b?style=for-the-badge&logo=openai&logoColor=ECE0C6" />
+  <img src="https://img.shields.io/badge/Claude-1a120b?style=for-the-badge&logo=anthropic&logoColor=ECE0C6" />
+  <img src="https://img.shields.io/badge/Gemini-1a120b?style=for-the-badge&logo=googlegemini&logoColor=ECE0C6" />
+  <img src="https://img.shields.io/badge/Kimi-1a120b?style=for-the-badge&logoColor=ECE0C6" />
 </p>
 
 **AI & Automation**
 
 <p>
-  <img src="https://img.shields.io/badge/Model%20Context%20Protocol-3A2A14?style=for-the-badge&logoColor=E8D5A8" />
-  <img src="https://img.shields.io/badge/Agentic%20Workflows-3A2A14?style=for-the-badge&logoColor=E8D5A8" />
-  <img src="https://img.shields.io/badge/LLM%20Tool--Calling-3A2A14?style=for-the-badge&logoColor=E8D5A8" />
-  <img src="https://img.shields.io/badge/Prompt%20Engineering-3A2A14?style=for-the-badge&logoColor=E8D5A8" />
-  <img src="https://img.shields.io/badge/OpenRouter-3A2A14?style=for-the-badge&logoColor=E8D5A8" />
-  <img src="https://img.shields.io/badge/Multi--Model%20Fallbacks-3A2A14?style=for-the-badge&logoColor=E8D5A8" />
-  <img src="https://img.shields.io/badge/YAML%20Protocol%20Design-3A2A14?style=for-the-badge&logo=yaml&logoColor=E8D5A8" />
-  <img src="https://img.shields.io/badge/httpx-3A2A14?style=for-the-badge&logo=python&logoColor=E8D5A8" />
-  <img src="https://img.shields.io/badge/pytest-3A2A14?style=for-the-badge&logo=pytest&logoColor=E8D5A8" />
-  <img src="https://img.shields.io/badge/Data%20Pipelines-3A2A14?style=for-the-badge&logoColor=E8D5A8" />
+  <img src="https://img.shields.io/badge/Model%20Context%20Protocol-1a120b?style=for-the-badge&logoColor=ECE0C6" />
+  <img src="https://img.shields.io/badge/Agentic%20Workflows-1a120b?style=for-the-badge&logoColor=ECE0C6" />
+  <img src="https://img.shields.io/badge/LLM%20Tool--Calling-1a120b?style=for-the-badge&logoColor=ECE0C6" />
+  <img src="https://img.shields.io/badge/Prompt%20Engineering-1a120b?style=for-the-badge&logoColor=ECE0C6" />
+  <img src="https://img.shields.io/badge/OpenRouter-1a120b?style=for-the-badge&logoColor=ECE0C6" />
+  <img src="https://img.shields.io/badge/Multi--Model%20Fallbacks-1a120b?style=for-the-badge&logoColor=ECE0C6" />
+  <img src="https://img.shields.io/badge/YAML%20Protocol%20Design-1a120b?style=for-the-badge&logo=yaml&logoColor=ECE0C6" />
+  <img src="https://img.shields.io/badge/httpx-1a120b?style=for-the-badge&logo=python&logoColor=ECE0C6" />
+  <img src="https://img.shields.io/badge/pytest-1a120b?style=for-the-badge&logo=pytest&logoColor=ECE0C6" />
+  <img src="https://img.shields.io/badge/Data%20Pipelines-1a120b?style=for-the-badge&logoColor=ECE0C6" />
 </p>
 
 **Platforms & APIs — programmatic AdTech**
 
 <p>
-  <img src="https://img.shields.io/badge/Index%20Exchange-3A2A14?style=for-the-badge&logoColor=E8D5A8" />
-  <img src="https://img.shields.io/badge/OpenX-3A2A14?style=for-the-badge&logoColor=E8D5A8" />
-  <img src="https://img.shields.io/badge/Magnite-3A2A14?style=for-the-badge&logoColor=E8D5A8" />
-  <img src="https://img.shields.io/badge/Xandr-3A2A14?style=for-the-badge&logoColor=E8D5A8" />
-  <img src="https://img.shields.io/badge/TripleLift-3A2A14?style=for-the-badge&logoColor=E8D5A8" />
-  <img src="https://img.shields.io/badge/Media.net-3A2A14?style=for-the-badge&logoColor=E8D5A8" />
-  <img src="https://img.shields.io/badge/PubMatic-3A2A14?style=for-the-badge&logoColor=E8D5A8" />
-  <img src="https://img.shields.io/badge/Adverity-3A2A14?style=for-the-badge&logoColor=E8D5A8" />
+  <img src="https://img.shields.io/badge/Index%20Exchange-1a120b?style=for-the-badge&logoColor=ECE0C6" />
+  <img src="https://img.shields.io/badge/OpenX-1a120b?style=for-the-badge&logoColor=ECE0C6" />
+  <img src="https://img.shields.io/badge/Magnite-1a120b?style=for-the-badge&logoColor=ECE0C6" />
+  <img src="https://img.shields.io/badge/Xandr-1a120b?style=for-the-badge&logoColor=ECE0C6" />
+  <img src="https://img.shields.io/badge/TripleLift-1a120b?style=for-the-badge&logoColor=ECE0C6" />
+  <img src="https://img.shields.io/badge/Media.net-1a120b?style=for-the-badge&logoColor=ECE0C6" />
+  <img src="https://img.shields.io/badge/PubMatic-1a120b?style=for-the-badge&logoColor=ECE0C6" />
+  <img src="https://img.shields.io/badge/Adverity-1a120b?style=for-the-badge&logoColor=ECE0C6" />
 </p>
 
 **Design, Tools & Infrastructure**
 
 <p>
-  <img src="https://img.shields.io/badge/Design%20Systems-3A2A14?style=for-the-badge&logoColor=E8D5A8" />
-  <img src="https://img.shields.io/badge/Design%20Tokens-3A2A14?style=for-the-badge&logoColor=E8D5A8" />
-  <img src="https://img.shields.io/badge/Figma-3A2A14?style=for-the-badge&logo=figma&logoColor=E8D5A8" />
-  <img src="https://img.shields.io/badge/Storybook-3A2A14?style=for-the-badge&logo=storybook&logoColor=E8D5A8" />
-  <img src="https://img.shields.io/badge/MUI-3A2A14?style=for-the-badge&logo=mui&logoColor=E8D5A8" />
-  <img src="https://img.shields.io/badge/HTML%20Email-3A2A14?style=for-the-badge&logoColor=E8D5A8" />
-  <img src="https://img.shields.io/badge/Accessibility-3A2A14?style=for-the-badge&logoColor=E8D5A8" />
-  <img src="https://img.shields.io/badge/Docker-3A2A14?style=for-the-badge&logo=docker&logoColor=E8D5A8" />
-  <img src="https://img.shields.io/badge/Caddy-3A2A14?style=for-the-badge&logoColor=E8D5A8" />
-  <img src="https://img.shields.io/badge/Git-3A2A14?style=for-the-badge&logo=git&logoColor=E8D5A8" />
-  <img src="https://img.shields.io/badge/Claude%20Code-3A2A14?style=for-the-badge&logo=anthropic&logoColor=E8D5A8" />
+  <img src="https://img.shields.io/badge/Design%20Systems-1a120b?style=for-the-badge&logoColor=ECE0C6" />
+  <img src="https://img.shields.io/badge/Design%20Tokens-1a120b?style=for-the-badge&logoColor=ECE0C6" />
+  <img src="https://img.shields.io/badge/Figma-1a120b?style=for-the-badge&logo=figma&logoColor=ECE0C6" />
+  <img src="https://img.shields.io/badge/Storybook-1a120b?style=for-the-badge&logo=storybook&logoColor=ECE0C6" />
+  <img src="https://img.shields.io/badge/MUI-1a120b?style=for-the-badge&logo=mui&logoColor=ECE0C6" />
+  <img src="https://img.shields.io/badge/HTML%20Email-1a120b?style=for-the-badge&logoColor=ECE0C6" />
+  <img src="https://img.shields.io/badge/Accessibility-1a120b?style=for-the-badge&logoColor=ECE0C6" />
+  <img src="https://img.shields.io/badge/Docker-1a120b?style=for-the-badge&logo=docker&logoColor=ECE0C6" />
+  <img src="https://img.shields.io/badge/Caddy-1a120b?style=for-the-badge&logoColor=ECE0C6" />
+  <img src="https://img.shields.io/badge/Git-1a120b?style=for-the-badge&logo=git&logoColor=ECE0C6" />
+  <img src="https://img.shields.io/badge/Claude%20Code-1a120b?style=for-the-badge&logo=anthropic&logoColor=ECE0C6" />
 </p>
 
 <div align="center"><sub>⚜ &nbsp;·&nbsp; ❧ &nbsp;·&nbsp; ✦ &nbsp;·&nbsp; ❧ &nbsp;·&nbsp; ⚜</sub></div>
@@ -131,12 +131,12 @@ I sit close to the problem. I translate messy requirements into clean architectu
 ## ❖ The Codex — *by the numbers*
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=obsessixnv&show_icons=true&hide_border=false&include_all_commits=true&count_private=true&bg_color=00000000&title_color=B8860B&text_color=8a6d3b&icon_color=B8860B&border_color=B8860B" alt="stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=obsessixnv&layout=compact&hide_border=false&langs_count=8&bg_color=00000000&title_color=B8860B&text_color=8a6d3b&border_color=B8860B" alt="languages" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=obsessixnv&show_icons=true&hide_border=false&include_all_commits=true&count_private=true&bg_color=00000000&title_color=B8860B&text_color=a9905f&icon_color=B8860B&border_color=B8860B" alt="stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=obsessixnv&layout=compact&hide_border=false&langs_count=8&bg_color=00000000&title_color=B8860B&text_color=a9905f&border_color=B8860B" alt="languages" />
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=obsessixnv&hide_border=false&background=00000000&stroke=B8860B&ring=B8860B&fire=8a5a0a&currStreakLabel=B8860B&sideLabels=8a6d3b&dates=8a6d3b&currStreakNum=8a6d3b&sideNums=8a6d3b&titleColor=B8860B&border=B8860B" alt="streak" />
+  <img src="https://streak-stats.demolab.com/?user=obsessixnv&hide_border=false&background=00000000&stroke=B8860B&ring=B8860B&fire=a8412a&currStreakLabel=B8860B&sideLabels=a9905f&dates=a9905f&currStreakNum=a9905f&sideNums=a9905f&titleColor=B8860B&border=B8860B" alt="streak" />
 </div>
 
 <div align="center"><sub>⚜ &nbsp;·&nbsp; ❧ &nbsp;·&nbsp; ✦ &nbsp;·&nbsp; ❧ &nbsp;·&nbsp; ⚜</sub></div>
@@ -146,8 +146,8 @@ I sit close to the problem. I translate messy requirements into clean architectu
 If you're building with **AI, automation, data, or full-stack** — I'm always glad of a worthy commission.
 
 <p>
-  <a href="mailto:romkayank@gmail.com"><img alt="Email" src="https://img.shields.io/badge/romkayank@gmail.com-3A2A14?style=for-the-badge&logo=gmail&logoColor=E8D5A8" /></a>
-  <a href="https://github.com/obsessixnv"><img alt="GitHub" src="https://img.shields.io/badge/github.com%2Fobsessixnv-3A2A14?style=for-the-badge&logo=github&logoColor=E8D5A8" /></a>
+  <a href="mailto:romkayank@gmail.com"><img alt="Email" src="https://img.shields.io/badge/romkayank@gmail.com-1a120b?style=for-the-badge&logo=gmail&logoColor=ECE0C6" /></a>
+  <a href="https://github.com/obsessixnv"><img alt="GitHub" src="https://img.shields.io/badge/github.com%2Fobsessixnv-1a120b?style=for-the-badge&logo=github&logoColor=ECE0C6" /></a>
 </p>
 
 <div align="center">

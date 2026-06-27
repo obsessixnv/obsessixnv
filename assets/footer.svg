@@ -1,47 +1,63 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 150" width="1200" height="150" role="img" aria-label="Festina lente — Ars longa, vita brevis">
   <title>Festina lente · Ars longa, vita brevis</title>
   <defs>
-    <radialGradient id="frescof" cx="50%" cy="120%" r="120%">
-      <stop offset="0%"  stop-color="#f5e7c5"/>
-      <stop offset="100%" stop-color="#d2b478"/>
+    <radialGradient id="nightf" cx="50%" cy="-10%" r="120%">
+      <stop offset="0%"  stop-color="#34230f"/>
+      <stop offset="55%" stop-color="#160f09"/>
+      <stop offset="100%" stop-color="#0b0807"/>
     </radialGradient>
-    <linearGradient id="goldf" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#f0d98a"/>
-      <stop offset="45%" stop-color="#c0901a"/>
-      <stop offset="100%" stop-color="#7c5108"/>
+    <linearGradient id="framef" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"  stop-color="#5a3f0e"/>
+      <stop offset="50%" stop-color="#e7c469"/>
+      <stop offset="100%" stop-color="#5a3f0e"/>
+    </linearGradient>
+    <linearGradient id="leafgf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#a8412a"/>
+      <stop offset="55%" stop-color="#79271a"/>
+      <stop offset="100%" stop-color="#401410"/>
+    </linearGradient>
+    <linearGradient id="budgf" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a23c28"/>
+      <stop offset="100%" stop-color="#5c1c14"/>
     </linearGradient>
     <filter id="grainf">
       <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch" result="n"/>
       <feColorMatrix in="n" type="saturate" values="0"/>
-      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComponentTransfer><feFuncA type="linear" slope="0.05"/></feComponentTransfer>
     </filter>
+    <g id="leaff">
+      <path d="M0 0 C 13 -10 38 -8 47 0 C 38 8 13 10 0 0 Z" fill="url(#leafgf)"/>
+      <path d="M4 0 Q 26 1 45 0" fill="none" stroke="#360f0b" stroke-width="0.9"/>
+      <path d="M0 0 C 13 -10 38 -8 47 0" fill="none" stroke="#d6a24e" stroke-width="0.8" opacity="0.45"/>
+    </g>
+    <g id="budf">
+      <path d="M0 9 C -11 4 -10 -13 0 -17 C 10 -13 11 4 0 9 Z" fill="url(#budgf)"/>
+      <path d="M0 -15 C -5 -6 -4 3 0 7" fill="none" stroke="#3a120d" stroke-width="0.9" opacity="0.8"/>
+      <path d="M-6 -9 C -4 -2 -3 4 0 7" fill="none" stroke="#3a120d" stroke-width="0.8" opacity="0.7"/>
+      <path d="M6 -9 C 4 -2 3 4 0 7" fill="none" stroke="#3a120d" stroke-width="0.8" opacity="0.7"/>
+    </g>
   </defs>
 
   <style>
-    .lat { font-family: Georgia, "Times New Roman", serif; fill: #9c6a12; font-weight: 700; }
-    .breathe { transform-box: fill-box; transform-origin: center; animation: br 6s ease-in-out infinite; }
-    @keyframes br { 0%,100% { transform: scale(1);} 50% { transform: scale(1.12);} }
+    .lat { font-family: Georgia, "Times New Roman", serif; font-weight: 700; }
   </style>
 
-  <rect width="1200" height="150" fill="url(#frescof)"/>
-  <rect width="1200" height="150" filter="url(#grainf)" opacity="0.6"/>
+  <rect width="1200" height="150" fill="url(#nightf)"/>
+  <rect width="1200" height="150" filter="url(#grainf)" opacity="0.5"/>
 
-  <!-- gilded molding rail (foot of the frame) -->
-  <rect x="34" y="22" width="1132" height="9" fill="url(#goldf)"/>
-  <rect x="34" y="22" width="1132" height="2" fill="#f3e3a6" opacity="0.7"/>
-  <rect x="34" y="33" width="1132" height="2" fill="#6b4a18"/>
-  <line x1="42" y1="40" x2="1158" y2="40" stroke="#b8860b" stroke-width="2" stroke-dasharray="1.5 5" opacity="0.85"/>
+  <!-- gilded molding rail -->
+  <rect x="34" y="24" width="1132" height="7" fill="url(#framef)"/>
+  <rect x="34" y="24" width="1132" height="1.6" fill="#f3e3a6" opacity="0.5"/>
+  <line x1="42" y1="40" x2="1158" y2="40" stroke="#8a6a1e" stroke-width="1.6" stroke-dasharray="1.5 5" opacity="0.7"/>
 
-  <!-- small gilt fleuron -->
-  <g transform="translate(600,57)">
-    <g class="breathe" fill="url(#goldf)">
-      <rect x="-3.6" y="-3.6" width="7.2" height="7.2" transform="rotate(45)"/>
-      <circle cx="-14" cy="0" r="2.4"/><circle cx="14" cy="0" r="2.4"/>
-      <rect x="-1.7" y="-1.7" width="3.4" height="3.4" fill="#6b4a18" transform="rotate(45)"/>
-    </g>
+  <!-- rosebud-and-leaf sprig -->
+  <g transform="translate(600,60)">
+    <use href="#leaff" transform="translate(-3,2) rotate(170) scale(0.7)"/>
+    <use href="#leaff" transform="translate(3,2) rotate(10) scale(0.7)"/>
+    <use href="#budf" transform="scale(0.78)"/>
   </g>
 
   <!-- mottos -->
-  <text class="lat" x="600" y="99" text-anchor="middle" font-size="26" letter-spacing="7">FESTINA LENTE</text>
-  <text class="lat" x="600" y="121" text-anchor="middle" font-size="12" letter-spacing="5" fill="#6b4423">ARS &#183; LONGA &#183; VITA &#183; BREVIS</text>
+  <text class="lat" x="600" y="105" text-anchor="middle" font-size="26" letter-spacing="7" fill="#bd6a48">FESTINA LENTE</text>
+  <text class="lat" x="600" y="127" text-anchor="middle" font-size="12" letter-spacing="5" fill="#b89a6a">ARS &#183; LONGA &#183; VITA &#183; BREVIS</text>
 </svg>

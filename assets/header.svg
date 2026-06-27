@@ -2,99 +2,126 @@
   <title>Roman Yankovych — Forward Deployed Engineer at Elcano · Ostinato Rigore</title>
 
   <defs>
-    <radialGradient id="fresco" cx="38%" cy="36%" r="92%">
-      <stop offset="0%"  stop-color="#f7eccf"/>
-      <stop offset="50%" stop-color="#ecd8ac"/>
-      <stop offset="100%" stop-color="#d2b478"/>
+    <radialGradient id="night" cx="30%" cy="34%" r="98%">
+      <stop offset="0%"  stop-color="#3a2716"/>
+      <stop offset="42%" stop-color="#1b130c"/>
+      <stop offset="100%" stop-color="#0b0807"/>
     </radialGradient>
-    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%"  stop-color="#f0d98a"/>
-      <stop offset="40%" stop-color="#c0901a"/>
-      <stop offset="100%" stop-color="#7c5108"/>
+    <radialGradient id="candle" cx="26%" cy="30%" r="70%">
+      <stop offset="0%"  stop-color="#6b4824" stop-opacity="0.55"/>
+      <stop offset="55%" stop-color="#3a2613" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="frame" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"  stop-color="#e7c469"/>
+      <stop offset="38%" stop-color="#9a7320"/>
+      <stop offset="72%" stop-color="#5a3f0e"/>
+      <stop offset="100%" stop-color="#2c1f06"/>
     </linearGradient>
-    <radialGradient id="vignette" cx="50%" cy="48%" r="76%">
-      <stop offset="58%" stop-color="#000000" stop-opacity="0"/>
-      <stop offset="100%" stop-color="#5a3d10" stop-opacity="0.34"/>
+    <radialGradient id="vig" cx="50%" cy="46%" r="72%">
+      <stop offset="40%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.62"/>
+    </radialGradient>
+    <linearGradient id="leafg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#a8412a"/>
+      <stop offset="55%" stop-color="#79271a"/>
+      <stop offset="100%" stop-color="#401410"/>
+    </linearGradient>
+    <linearGradient id="budg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a23c28"/>
+      <stop offset="100%" stop-color="#5c1c14"/>
+    </linearGradient>
+    <radialGradient id="berryg" cx="38%" cy="34%" r="70%">
+      <stop offset="0%" stop-color="#7a241a"/>
+      <stop offset="100%" stop-color="#250a08"/>
     </radialGradient>
     <filter id="grain">
       <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch" result="n"/>
       <feColorMatrix in="n" type="saturate" values="0"/>
-      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComponentTransfer><feFuncA type="linear" slope="0.05"/></feComponentTransfer>
     </filter>
-    <!-- classical palmette (anthemion) crest -->
-    <g id="palmette" fill="url(#gold)">
-      <path d="M0 0 Q -5 -13 0 -25 Q 5 -13 0 0 Z"/>
-      <path d="M0 0 Q -12 -11 -11 -21 Q -3 -12 0 0 Z"/>
-      <path d="M0 0 Q 12 -11 11 -21 Q 3 -12 0 0 Z"/>
-      <path d="M0 0 Q -20 -6 -18 -15 Q -7 -9 0 0 Z"/>
-      <path d="M0 0 Q 20 -6 18 -15 Q 7 -9 0 0 Z"/>
-      <path d="M-15 2 Q -22 2 -20 -5" fill="none" stroke="url(#gold)" stroke-width="1.4"/>
-      <path d="M15 2 Q 22 2 20 -5" fill="none" stroke="url(#gold)" stroke-width="1.4"/>
-      <circle r="2.6"/>
+
+    <!-- a single dried leaf, base at 0,0 pointing +x -->
+    <g id="leaf">
+      <path d="M0 0 C 13 -10 38 -8 47 0 C 38 8 13 10 0 0 Z" fill="url(#leafg)"/>
+      <path d="M4 0 Q 26 1 45 0" fill="none" stroke="#360f0b" stroke-width="0.9"/>
+      <path d="M14 -1 l 6 -5 M24 -1 l 7 -5 M14 1 l 6 5 M24 1 l 7 5" stroke="#360f0b" stroke-width="0.7" opacity="0.7"/>
+      <path d="M0 0 C 13 -10 38 -8 47 0" fill="none" stroke="#d6a24e" stroke-width="0.8" opacity="0.45"/>
+    </g>
+    <!-- nodding rosebud, base at 0,0 -->
+    <g id="bud">
+      <path d="M0 9 C -11 4 -10 -13 0 -17 C 10 -13 11 4 0 9 Z" fill="url(#budg)"/>
+      <path d="M0 -15 C -5 -6 -4 3 0 7" fill="none" stroke="#3a120d" stroke-width="0.9" opacity="0.8"/>
+      <path d="M-6 -9 C -4 -2 -3 4 0 7" fill="none" stroke="#3a120d" stroke-width="0.8" opacity="0.7"/>
+      <path d="M6 -9 C 4 -2 3 4 0 7" fill="none" stroke="#3a120d" stroke-width="0.8" opacity="0.7"/>
+      <path d="M0 -17 C -4 -10 -3 -4 0 0" fill="none" stroke="#d6a24e" stroke-width="0.8" opacity="0.4"/>
+      <path d="M-2 8 C -9 14 -13 12 -15 6 M2 8 C 9 14 13 12 15 6" fill="none" stroke="#5a2a16" stroke-width="1.4"/>
+    </g>
+    <g id="berry">
+      <circle r="4.2" fill="url(#berryg)"/>
+      <circle cx="-1.3" cy="-1.4" r="1.1" fill="#caa05a" opacity="0.55"/>
+    </g>
+    <!-- frame crest: rosebud flanked by leaves -->
+    <g id="crest">
+      <use href="#leaf" transform="translate(-2,0) rotate(168) scale(0.66)"/>
+      <use href="#leaf" transform="translate(2,0) rotate(12) scale(0.66)"/>
+      <use href="#bud" transform="scale(0.62)"/>
     </g>
   </defs>
 
   <style>
-    .ttl  { font-family: Georgia, "Times New Roman", serif; fill: #3a2a14; }
-    .name { font-size: 56px; font-weight: 700; letter-spacing: 1px; }
-    .sub  { font-size: 15px; font-weight: 700; letter-spacing: 6.5px; fill: #6b4423; }
-    .motto{ font-size: 14px; font-weight: 700; letter-spacing: 8px; fill: #9c6a12; }
-    .fade { animation: fade 1.9s ease-out both; }
+    .ttl  { font-family: Georgia, "Times New Roman", serif; }
+    .name { font-size: 56px; font-weight: 700; letter-spacing: 1px; fill: #ece0c6; }
+    .sub  { font-size: 15px; font-weight: 700; letter-spacing: 6.5px; fill: #b89a6a; }
+    .motto{ font-size: 14px; font-weight: 700; letter-spacing: 8px; fill: #bd6a48; }
+    .fade { animation: fade 2s ease-out both; }
     @keyframes fade { from { opacity: 0; transform: translateY(8px);} to { opacity: 1; transform: translateY(0);} }
-    .draw { animation: draw 2.6s ease-out both; }
-    @keyframes draw { from { opacity: 0;} to { opacity: 1;} }
-    .glow { animation: glow 6s ease-in-out infinite; }
-    @keyframes glow { 0%,100% { opacity: 1;} 50% { opacity: 0.62;} }
+    .flick { animation: flick 5.5s ease-in-out infinite; }
+    @keyframes flick { 0%{opacity:.82} 22%{opacity:1} 38%{opacity:.78} 55%{opacity:.96} 74%{opacity:.8} 100%{opacity:.9} }
   </style>
 
-  <!-- fresco ground -->
-  <rect width="1200" height="300" fill="url(#fresco)"/>
-  <rect width="1200" height="300" filter="url(#grain)" opacity="0.6"/>
-  <rect width="1200" height="300" fill="url(#vignette)"/>
+  <!-- tenebrist ground -->
+  <rect width="1200" height="300" fill="url(#night)"/>
+  <rect class="flick" width="1200" height="300" fill="url(#candle)"/>
+  <rect width="1200" height="300" filter="url(#grain)" opacity="0.5"/>
 
-  <!-- carved gilded picture frame -->
-  <rect x="3"  y="3"  width="1194" height="294" fill="none" stroke="#7c5108" stroke-width="2"/>
-  <rect x="9"  y="9"  width="1182" height="282" fill="none" stroke="url(#gold)" stroke-width="10"/>
-  <rect x="9"  y="9"  width="1182" height="282" fill="none" stroke="#f3e3a6" stroke-width="1.3" opacity="0.7"/>
-  <rect x="17" y="17" width="1166" height="266" fill="none" stroke="#6b4a18" stroke-width="1.6"/>
-  <rect x="22" y="22" width="1156" height="256" fill="none" stroke="#b8860b" stroke-width="2" stroke-dasharray="1.5 5" opacity="0.85"/>
-  <use href="#palmette" x="600" y="40"/>
-  <use href="#palmette" x="600" y="260" transform="rotate(180 600 260)"/>
-
-  <!-- Vitruvian study -->
-  <g class="draw" transform="translate(228,150)">
-    <g>
-      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="120s" repeatCount="indefinite"/>
-      <circle r="105" fill="none" stroke="#b8860b" stroke-width="4" stroke-dasharray="1.2 12" opacity="0.45"/>
-    </g>
-    <circle class="glow" r="95" fill="none" stroke="url(#gold)" stroke-width="2"/>
-    <rect x="-75" y="-66" width="150" height="150" fill="none" stroke="url(#gold)" stroke-width="1.5" opacity="0.9"/>
-    <g stroke="#5a4022" stroke-width="2.3" fill="none" stroke-linecap="round" stroke-linejoin="round">
-      <circle cx="0" cy="-55" r="11"/>
-      <path d="M0 -44 L0 14"/>
-      <path d="M-17 -40 Q0 -46 17 -40"/>
-      <path d="M-12 14 Q0 10 12 14"/>
-      <path d="M-13 -40 Q-18 -14 -10 14"/>
-      <path d="M13 -40 Q18 -14 10 14"/>
-      <path d="M-17 -40 L-86 -40"/><path d="M17 -40 L86 -40"/>
-      <path d="M-17 -40 L-58 -74"/><path d="M17 -40 L58 -74"/>
-      <path d="M-7 14 L-12 82"/><path d="M7 14 L12 82"/>
-      <path d="M-7 14 L-61 73"/><path d="M7 14 L61 73"/>
-    </g>
-    <g fill="#5a4022">
-      <circle cx="-86" cy="-40" r="2.8"/><circle cx="86" cy="-40" r="2.8"/>
-      <circle cx="-58" cy="-74" r="2.8"/><circle cx="58" cy="-74" r="2.8"/>
-      <ellipse cx="-12" cy="84" rx="5" ry="2.4"/><ellipse cx="12" cy="84" rx="5" ry="2.4"/>
-      <ellipse cx="-61" cy="75" rx="5" ry="2.4" transform="rotate(40 -61 75)"/>
-      <ellipse cx="61" cy="75" rx="5" ry="2.4" transform="rotate(-40 61 75)"/>
-    </g>
-    <circle r="2.6" fill="url(#gold)"/>
+  <!-- dried botanical, cascading down the left -->
+  <g>
+    <path d="M96 26 C 150 64 92 150 150 192 C 188 220 176 250 166 264" fill="none" stroke="#4a2a16" stroke-width="2.2"/>
+    <path d="M150 192 C 120 206 104 230 96 252" fill="none" stroke="#4a2a16" stroke-width="1.8"/>
+    <use href="#leaf" transform="translate(112,64) rotate(118) scale(0.92)"/>
+    <use href="#leaf" transform="translate(132,80) rotate(64)  scale(0.66)"/>
+    <use href="#leaf" transform="translate(120,104) rotate(28)  scale(1.0)"/>
+    <use href="#leaf" transform="translate(112,150) rotate(150) scale(0.96)"/>
+    <use href="#leaf" transform="translate(134,168) rotate(18)  scale(0.78)"/>
+    <use href="#leaf" transform="translate(104,232) rotate(196) scale(0.86)"/>
+    <use href="#leaf" transform="translate(150,196) rotate(54)  scale(1.05)"/>
+    <use href="#leaf" transform="translate(140,232) rotate(176) scale(0.9)"/>
+    <use href="#leaf" transform="translate(168,236) rotate(126) scale(0.82)"/>
+    <use href="#leaf" transform="translate(120,256) rotate(214) scale(0.7)"/>
+    <use href="#bud"  transform="translate(180,246) rotate(26)  scale(1.18)"/>
+    <use href="#bud"  transform="translate(126,238) rotate(-18) scale(0.7)"/>
+    <use href="#berry" transform="translate(152,252)"/>
+    <use href="#berry" transform="translate(163,262)"/>
+    <use href="#berry" transform="translate(142,248)"/>
   </g>
 
-  <!-- name block -->
+  <!-- name, lit by candlelight -->
   <g class="fade">
     <text class="ttl motto" x="430" y="78">✦ &#160; O S T I N A T O &#160; R I G O R E &#160; ✦</text>
     <text class="ttl name"  x="428" y="160">Roman Yankovych</text>
     <text class="ttl sub"   x="430" y="196">FORWARD DEPLOYED ENGINEER &#183; ELCANO</text>
   </g>
+
+  <!-- shadow corners -->
+  <rect width="1200" height="300" fill="url(#vig)"/>
+
+  <!-- tarnished gilt frame -->
+  <rect x="3"  y="3"  width="1194" height="294" fill="none" stroke="#000000" stroke-width="2" opacity="0.6"/>
+  <rect x="9"  y="9"  width="1182" height="282" fill="none" stroke="url(#frame)" stroke-width="10"/>
+  <rect x="9"  y="9"  width="1182" height="282" fill="none" stroke="#f3e3a6" stroke-width="1.1" opacity="0.4"/>
+  <rect x="17" y="17" width="1166" height="266" fill="none" stroke="#1a1206" stroke-width="1.6"/>
+  <rect x="22" y="22" width="1156" height="256" fill="none" stroke="#8a6a1e" stroke-width="1.6" stroke-dasharray="1.5 5" opacity="0.7"/>
+  <use href="#crest" x="600" y="34"/>
+  <use href="#crest" x="600" y="266" transform="rotate(180 600 266)"/>
 </svg>

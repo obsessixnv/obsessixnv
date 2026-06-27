@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 140" width="1200" height="140" role="img" aria-label="Navigare necesse est">
+  <title>Navigare necesse est — to sail is necessary</title>
+  <defs>
+    <radialGradient id="parchf" cx="50%" cy="0%" r="110%">
+      <stop offset="0%"  stop-color="#f3e4c1"/>
+      <stop offset="100%" stop-color="#e0c690"/>
+    </radialGradient>
+    <linearGradient id="goldf" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e6c569"/>
+      <stop offset="100%" stop-color="#8a5a0a"/>
+    </linearGradient>
+    <filter id="grainf">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch" result="n"/>
+      <feColorMatrix in="n" type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.05"/></feComponentTransfer>
+    </filter>
+  </defs>
+
+  <style>
+    .lat { font-family: Georgia, "Times New Roman", serif; fill: #9c6a12; font-weight: 700; }
+    .w1 { animation: d1 13s linear infinite; }
+    .w2 { animation: d2 9s  linear infinite; }
+    @keyframes d1 { from { transform: translateX(0);} to { transform: translateX(-400px);} }
+    @keyframes d2 { from { transform: translateX(-500px);} to { transform: translateX(0);} }
+    .spin { transform-box: fill-box; transform-origin: center; animation: sp 60s linear infinite; }
+    @keyframes sp { from { transform: rotate(0);} to { transform: rotate(360deg);} }
+  </style>
+
+  <rect width="1200" height="140" fill="url(#parchf)"/>
+  <rect width="1200" height="140" filter="url(#grainf)" opacity="0.5"/>
+
+  <!-- top rule with fleuron -->
+  <line x1="60" y1="34" x2="560" y2="34" stroke="url(#goldf)" stroke-width="1.5"/>
+  <line x1="640" y1="34" x2="1140" y2="34" stroke="url(#goldf)" stroke-width="1.5"/>
+  <text class="lat" x="600" y="40" text-anchor="middle" font-size="22">&#10087;</text>
+
+  <!-- flanking compass stars -->
+  <g class="spin" transform="translate(150,84)" opacity="0.8">
+    <path d="M0 -22 L5 -5 L22 0 L5 5 L0 22 L-5 5 L-22 0 L-5 -5 Z" fill="url(#goldf)"/>
+    <circle r="3" fill="#3a2a14"/>
+  </g>
+  <g class="spin" transform="translate(1050,84)" opacity="0.8">
+    <path d="M0 -22 L5 -5 L22 0 L5 5 L0 22 L-5 5 L-22 0 L-5 -5 Z" fill="url(#goldf)"/>
+    <circle r="3" fill="#3a2a14"/>
+  </g>
+
+  <!-- mottos -->
+  <text class="lat" x="600" y="78" text-anchor="middle" font-size="26" letter-spacing="8">PLVS VLTRA</text>
+  <text class="lat" x="600" y="100" text-anchor="middle" font-size="12" letter-spacing="5" fill="#6b4423">NAVIGARE &#183; NECESSE &#183; EST</text>
+
+  <!-- waves -->
+  <g class="w1" opacity="0.30">
+    <path fill="none" stroke="#6b4423" stroke-width="2" d="M0 124 Q 100 116 200 124 T 400 124 T 600 124 T 800 124 T 1000 124 T 1200 124 T 1400 124 T 1600 124"/>
+  </g>
+  <g class="w2" opacity="0.45">
+    <path fill="none" stroke="#8a5a0a" stroke-width="2" d="M0 132 Q 125 124 250 132 T 500 132 T 750 132 T 1000 132 T 1250 132 T 1500 132 T 1750 132"/>
+  </g>
+</svg>

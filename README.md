@@ -19,7 +19,7 @@
 > *Ostinato rigore* — **"stubborn rigor."**
 > <br><sub>— Leonardo da Vinci's personal maxim.</sub>
 
-I'm a **Forward Deployed Engineer at [Elcano](https://github.com/obsessixnv)**, working in the old Renaissance manner — part engineer, part craftsman — building agentic AI systems with stubborn rigor and a taste for elegant proportion.
+I'm a **Forward Deployed Engineer at Elcano**, working in the old Renaissance manner — part engineer, part craftsman — building agentic AI systems with stubborn rigor and a taste for elegant proportion.
 
 I sit close to the problem. I translate messy requirements into clean architecture, useful automation, and software that ships, gets watched, and gets better with real feedback — engineering, product thinking, and applied AI worked on the same bench. Our agent **Victoria** does the dense work; I compose the systems around her.
 
@@ -131,12 +131,16 @@ I sit close to the problem. I translate messy requirements into clean architectu
 ## ❖ The Codex — *by the numbers*
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=obsessixnv&show_icons=true&hide_border=false&include_all_commits=true&count_private=true&bg_color=00000000&title_color=B8860B&text_color=a9905f&icon_color=B8860B&border_color=B8860B" alt="stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=obsessixnv&layout=compact&hide_border=false&langs_count=8&bg_color=00000000&title_color=B8860B&text_color=a9905f&border_color=B8860B" alt="languages" />
+  <img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api?username=obsessixnv&show_icons=true&hide_border=false&include_all_commits=true&count_private=true&bg_color=00000000&title_color=B8860B&text_color=a9905f&icon_color=B8860B&border_color=B8860B" alt="stats" />
+  <img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=obsessixnv&layout=compact&hide_border=false&langs_count=8&bg_color=00000000&title_color=B8860B&text_color=a9905f&border_color=B8860B" alt="languages" />
 </div>
 
 <div align="center">
   <img src="https://streak-stats.demolab.com/?user=obsessixnv&hide_border=false&background=00000000&stroke=B8860B&ring=B8860B&fire=a8412a&currStreakLabel=B8860B&sideLabels=a9905f&dates=a9905f&currStreakNum=a9905f&sideNums=a9905f&titleColor=B8860B&border=B8860B" alt="streak" />
+</div>
+
+<div align="center">
+  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=obsessixnv&custom_title=Nulla%20dies%20sine%20linea&bg_color=00000000&color=a9905f&line=B8860B&point=e7c469&title_color=B8860B&area=true&hide_border=false" alt="No day without a line — contribution graph" />
 </div>
 
 <div align="center"><sub>⚜ &nbsp;·&nbsp; ❧ &nbsp;·&nbsp; ✦ &nbsp;·&nbsp; ❧ &nbsp;·&nbsp; ⚜</sub></div>

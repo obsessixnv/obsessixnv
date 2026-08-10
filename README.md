@@ -131,17 +131,19 @@ I sit close to the problem. I translate messy requirements into clean architectu
 ## ❖ The Codex — *by the numbers*
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api?username=obsessixnv&show_icons=true&hide_border=false&include_all_commits=true&count_private=true&bg_color=00000000&title_color=B8860B&text_color=a9905f&icon_color=B8860B&border_color=B8860B" alt="stats" />
-  <img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=obsessixnv&layout=compact&hide_border=false&langs_count=8&bg_color=00000000&title_color=B8860B&text_color=a9905f&border_color=B8860B" alt="languages" />
+  <img height="190" src="assets/stats.svg" alt="Stars, commits, pull requests, issues and repositories" />
+  <img height="190" src="assets/langs.svg" alt="Most used languages by share" />
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=obsessixnv&hide_border=false&background=00000000&stroke=B8860B&ring=B8860B&fire=a8412a&currStreakLabel=B8860B&sideLabels=a9905f&dates=a9905f&currStreakNum=a9905f&sideNums=a9905f&titleColor=B8860B&border=B8860B" alt="streak" />
+  <img width="98%" src="assets/streak.svg" alt="Total contributions, current streak and longest streak" />
 </div>
 
 <div align="center">
-  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=obsessixnv&custom_title=Nulla%20dies%20sine%20linea&bg_color=00000000&color=a9905f&line=B8860B&point=e7c469&title_color=B8860B&area=true&hide_border=false" alt="No day without a line — contribution graph" />
+  <img width="98%" src="assets/activity.svg" alt="Nulla dies sine linea — contributions over the last 30 days" />
 </div>
+
+<div align="center"><sub><i>Struck fresh each day from the GitHub API — see <code>scripts/render_cards.py</code>.</i></sub></div>
 
 <div align="center"><sub>⚜ &nbsp;·&nbsp; ❧ &nbsp;·&nbsp; ✦ &nbsp;·&nbsp; ❧ &nbsp;·&nbsp; ⚜</sub></div>
 

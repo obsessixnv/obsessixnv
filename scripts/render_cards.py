@@ -6,10 +6,13 @@ single rate-limited token; they go down, and they answer HTTP 200 with an error
 card when they do. These cards are generated here instead, so the README depends
 on nothing but GitHub itself.
 
-Usage:  GH_TOKEN=<token> python3 scripts/render_cards.py [--user LOGIN] [--out DIR]
+Usage:  GH_TOKEN=<token> python3 scripts/render_cards.py [--user LOGIN]
+                                    [--out DIR] [--theme dark|light|both]
 
-Writes assets/{stats,langs,streak,activity}.svg. Nothing is written unless every
-card renders, so a failed run can never leave a half-broken card behind.
+Writes assets/{stats,langs,streak,activity}.svg and the -light.svg counterparts
+that the README's <picture> elements select between. Nothing is written unless
+every card in every theme renders, so a failed run can never leave a half-broken
+card, or one theme updated and the other stale.
 """
 
 from __future__ import annotations
@@ -25,23 +28,30 @@ from xml.sax.saxutils import escape
 
 API = "https://api.github.com/graphql"
 
-# --- Baroque chiaroscuro palette, shared with assets/header.svg ---------------
-INK_BRIGHT = "#f0e4c8"   # cream, hero numbers
-INK = "#bda06e"          # muted gold, labels
-INK_DIM = "#8a7350"      # faint gold, axis ticks
-GOLD = "#b8860b"         # titles
-GOLD_HI = "#e7c469"      # gilt highlight
-OXBLOOD = "#a8412a"      # accent
-GROUND = "#14100a"       # card surface (opaque: identical in GitHub light+dark)
-GRID = "#3a2c18"
-
-# Sequential ramp, gold -> oxblood. Validated: monotonic lightness, every step
-# >= 3:1 on GROUND. Adjacent pairs sit in the 6-8 dE band, which is legal only
-# with secondary encoding -- hence the direct label + 2px gap on every segment.
-RAMP = ["#f5e0a0", "#e2c076", "#d0a154", "#be833f", "#ad6538", "#9c4a33"]
-RAMP_OTHER = "#6f6555"
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import palette  # noqa: E402
 
 SERIF = "Georgia, 'Times New Roman', serif"
+
+# Filled in by set_theme(); the drawing functions read them as globals so the
+# whole card set can be re-rendered for the other theme without threading a
+# palette argument through every helper.
+INK_BRIGHT = INK = INK_DIM = GOLD = GOLD_HI = OXBLOOD = GRID = ""
+GROUND_0 = GROUND_1 = GROUND_2 = BORDER_0 = BORDER_1 = BORDER_2 = AREA_OP = ""
+RAMP: list[str] = []
+RAMP_OTHER = ""
+
+
+def set_theme(theme: str) -> None:
+    global INK_BRIGHT, INK, INK_DIM, GOLD, GOLD_HI, OXBLOOD, GRID, AREA_OP
+    global GROUND_0, GROUND_1, GROUND_2, BORDER_0, BORDER_1, BORDER_2
+    global RAMP, RAMP_OTHER
+    p, RAMP, RAMP_OTHER = palette.cards(theme)
+    INK_BRIGHT, INK, INK_DIM = p["INK_BRIGHT"], p["INK"], p["INK_DIM"]
+    GOLD, GOLD_HI, OXBLOOD, GRID = p["GOLD"], p["GOLD_HI"], p["OXBLOOD"], p["GRID"]
+    GROUND_0, GROUND_1, GROUND_2 = p["GROUND_0"], p["GROUND_1"], p["GROUND_2"]
+    BORDER_0, BORDER_1, BORDER_2 = p["BORDER_0"], p["BORDER_1"], p["BORDER_2"]
+    AREA_OP = p["AREA_OP"]
 
 
 # --- data --------------------------------------------------------------------
@@ -231,12 +241,12 @@ def frame(w: int, h: int, title: str, body: str, uid: str) -> str:
   <title>{escape(title)}</title>
   <defs>
     <radialGradient id="g{uid}" cx="28%" cy="22%" r="92%">
-      <stop offset="0%" stop-color="#2a1e11"/><stop offset="60%" stop-color="{GROUND}"/>
-      <stop offset="100%" stop-color="#0b0807"/>
+      <stop offset="0%" stop-color="{GROUND_0}"/><stop offset="60%" stop-color="{GROUND_1}"/>
+      <stop offset="100%" stop-color="{GROUND_2}"/>
     </radialGradient>
     <linearGradient id="b{uid}" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="{GOLD_HI}"/><stop offset="55%" stop-color="#8a6a1e"/>
-      <stop offset="100%" stop-color="#3d2b09"/>
+      <stop offset="0%" stop-color="{BORDER_0}"/><stop offset="55%" stop-color="{BORDER_1}"/>
+      <stop offset="100%" stop-color="{BORDER_2}"/>
     </linearGradient>
   </defs>
   <rect width="{w}" height="{h}" rx="7" fill="url(#g{uid})"/>
@@ -363,7 +373,7 @@ def card_activity(days: dict[str, int], n: int = 30) -> str:
                    f' text-anchor="end" fill="{INK_DIM}">{int(round(v))}</text>')
 
     pts = " ".join(f"{px(i):.1f},{py(v):.1f}" for i, v in enumerate(vals))
-    out.append(f'  <polygon points="{x0},{y1} {pts} {x1},{y1}" fill="{GOLD_HI}" opacity="0.13"/>')
+    out.append(f'  <polygon points="{x0},{y1} {pts} {x1},{y1}" fill="{GOLD_HI}" opacity="{AREA_OP}"/>')
     out.append(f'  <polyline points="{pts}" fill="none" stroke="{GOLD_HI}" stroke-width="2"'
                f' stroke-linejoin="round" stroke-linecap="round"/>')
 
@@ -371,7 +381,7 @@ def card_activity(days: dict[str, int], n: int = 30) -> str:
     if peak > 0:
         pi = vals.index(peak)
         out.append(f'  <circle cx="{px(pi):.1f}" cy="{py(peak):.1f}" r="4" fill="{OXBLOOD}"'
-                   f' stroke="{GROUND}" stroke-width="2"/>')
+                   f' stroke="{GROUND_1}" stroke-width="2"/>')
         anchor = "end" if pi > len(vals) * 0.85 else ("start" if pi < len(vals) * 0.15 else "middle")
         out.append(f'  <text x="{px(pi):.1f}" y="{py(peak)-11:.1f}" font-family="{SERIF}" font-size="11.5"'
                    f' font-weight="700" text-anchor="{anchor}" fill="{INK_BRIGHT}">{peak}</text>')
@@ -394,6 +404,7 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--user", default="obsessixnv")
     ap.add_argument("--out", default="assets")
+    ap.add_argument("--theme", choices=["dark", "light", "both"], default="both")
     args = ap.parse_args()
 
     token = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
@@ -409,13 +420,16 @@ def main() -> int:
 
     s = streaks(data["days"])
     # render everything before writing anything: a partial failure must not
-    # leave one fresh card beside three stale ones
-    cards = {
-        "stats.svg": card_stats(data),
-        "langs.svg": card_langs(data),
-        "streak.svg": card_streak(s),
-        "activity.svg": card_activity(data["days"]),
-    }
+    # leave one fresh card beside three stale ones, or one theme beside another
+    themes = ["dark", "light"] if args.theme == "both" else [args.theme]
+    cards = {}
+    for theme in themes:
+        set_theme(theme)
+        suffix = "" if theme == "dark" else "-light"
+        cards[f"stats{suffix}.svg"] = card_stats(data)
+        cards[f"langs{suffix}.svg"] = card_langs(data)
+        cards[f"streak{suffix}.svg"] = card_streak(s)
+        cards[f"activity{suffix}.svg"] = card_activity(data["days"])
     os.makedirs(args.out, exist_ok=True)
     for name, svg in cards.items():
         with open(os.path.join(args.out, name), "w", encoding="utf-8") as fh:

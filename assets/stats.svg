@@ -18,12 +18,12 @@
   <path d="M20 40 H 410" stroke="#b8860b" stroke-width="1" stroke-dasharray="1.5 5" opacity="0.55"/>
   <text x="24" y="68" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#bda06e">Total Stars</text><text x="215" y="68" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" font-weight="700" text-anchor="end" fill="#f0e4c8">2</text>
   <text x="24" y="93" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#bda06e">Total Commits</text><text x="215" y="93" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" font-weight="700" text-anchor="end" fill="#f0e4c8">1.4k</text>
-  <text x="24" y="118" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#bda06e">Total PRs</text><text x="215" y="118" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" font-weight="700" text-anchor="end" fill="#f0e4c8">141</text>
+  <text x="24" y="118" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#bda06e">Total PRs</text><text x="215" y="118" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" font-weight="700" text-anchor="end" fill="#f0e4c8">142</text>
   <text x="24" y="143" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#bda06e">Total Issues</text><text x="215" y="143" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" font-weight="700" text-anchor="end" fill="#f0e4c8">53</text>
-  <text x="24" y="168" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#bda06e">Repositories</text><text x="215" y="168" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" font-weight="700" text-anchor="end" fill="#f0e4c8">33</text>
+  <text x="24" y="168" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#bda06e">Repositories</text><text x="215" y="168" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" font-weight="700" text-anchor="end" fill="#f0e4c8">38</text>
   <circle cx="345" cy="118" r="43" fill="none" stroke="#b8860b" stroke-width="5" opacity="0.22"/>
   <circle cx="345" cy="118" r="43" fill="none" stroke="#e7c469" stroke-width="5"
-          stroke-linecap="round" stroke-dasharray="119.1 270.2"
+          stroke-linecap="round" stroke-dasharray="119.2 270.2"
           transform="rotate(-90 345 118)"/>
   <text x="345" y="127" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700"
         text-anchor="middle" fill="#f0e4c8">B</text>

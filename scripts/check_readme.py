@@ -65,7 +65,10 @@ def main() -> int:
     src = open(path, encoding="utf-8").read()
     root = os.path.dirname(os.path.abspath(path))
 
-    refs = re.findall(r'(?:src|href)="([^"]+)"', src)
+    # srcset matters as much as src: the light-theme variants of every themed
+    # image live only there, so omitting it would check half the README and
+    # report "all good" while a light asset was missing.
+    refs = re.findall(r'(?:src|srcset|href)="([^"]+)"', src)
     refs += re.findall(r'\]\(([^)\s]+)\)', src)
 
     # Only &amp; is unescaped, deliberately. html.unescape() would expand bare

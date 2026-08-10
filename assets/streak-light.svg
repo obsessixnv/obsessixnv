@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 200" width="860" height="200" role="img" aria-label="the reckoning">
+  <title>the reckoning</title>
+  <defs>
+    <radialGradient id="gk" cx="28%" cy="22%" r="92%">
+      <stop offset="0%" stop-color="#fdf8ea"/><stop offset="60%" stop-color="#f3e9d2"/>
+      <stop offset="100%" stop-color="#e6d8b8"/>
+    </radialGradient>
+    <linearGradient id="bk" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#c9992a"/><stop offset="55%" stop-color="#9a7a26"/>
+      <stop offset="100%" stop-color="#5c4109"/>
+    </linearGradient>
+  </defs>
+  <rect width="860" height="200" rx="7" fill="url(#gk)"/>
+  <rect x="1.1" y="1.1" width="857.8" height="197.8" rx="6" fill="none"
+        stroke="url(#bk)" stroke-width="2.2"/>
+  <text x="20" y="31" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-weight="700"
+        letter-spacing="2.6" fill="#8a6a1e">THE RECKONING</text>
+  <path d="M20 40 H 840" stroke="#8a6a1e" stroke-width="1" stroke-dasharray="1.5 5" opacity="0.55"/>
+  <text x="140" y="102" font-family="Georgia, 'Times New Roman', serif" font-size="40" font-weight="700" text-anchor="middle" fill="#2b1e08">1.7k</text>
+  <text x="140" y="132" font-family="Georgia, 'Times New Roman', serif" font-size="13" letter-spacing="1.6" text-anchor="middle" fill="#8a6a1e">Total Contributions</text>
+  <text x="140" y="152" font-family="Georgia, 'Times New Roman', serif" font-size="11" text-anchor="middle" fill="#8d7b52">Oct 22, 2023 — Present</text>
+  <circle cx="430" cy="98" r="46" fill="none" stroke="#8a6a1e" stroke-width="4" opacity="0.25"/>
+  <circle cx="430" cy="98" r="46" fill="none" stroke="#a87c1c" stroke-width="4" opacity="0.85"/>
+  <text x="430" y="106" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="700" text-anchor="middle" fill="#2b1e08">1</text>
+  <text x="430" y="158" font-family="Georgia, 'Times New Roman', serif" font-size="13" letter-spacing="1.6" text-anchor="middle" fill="#8a6a1e">Current Streak</text>
+  <text x="430" y="176" font-family="Georgia, 'Times New Roman', serif" font-size="11" text-anchor="middle" fill="#8d7b52">Aug 10, 2026 — Aug 10, 2026</text>
+  <text x="720" y="102" font-family="Georgia, 'Times New Roman', serif" font-size="40" font-weight="700" text-anchor="middle" fill="#2b1e08">12</text>
+  <text x="720" y="132" font-family="Georgia, 'Times New Roman', serif" font-size="13" letter-spacing="1.6" text-anchor="middle" fill="#8a6a1e">Longest Streak</text>
+  <text x="720" y="152" font-family="Georgia, 'Times New Roman', serif" font-size="11" text-anchor="middle" fill="#8d7b52">Jun 22, 2026 — Jul 3, 2026</text>
+  <path d="M285 62 V 152" stroke="#8a6a1e" stroke-width="1" opacity="0.3"/>
+  <path d="M575 62 V 152" stroke="#8a6a1e" stroke-width="1" opacity="0.3"/>
+</svg>

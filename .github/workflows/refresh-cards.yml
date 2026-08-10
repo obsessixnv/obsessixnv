@@ -12,6 +12,8 @@ on:
     branches: [main]
     paths:
       - scripts/render_cards.py
+      - scripts/render_banners.py
+      - scripts/palette.py
       - .github/workflows/refresh-cards.yml
 
 concurrency:
@@ -46,6 +48,10 @@ jobs:
             echo "::notice::Running with GITHUB_TOKEN. Contribution figures are complete; the repository count covers public repos only. Add a classic PAT with the read:user scope as the METRICS_TOKEN secret to include private repositories."
           fi
           python3 scripts/render_cards.py --user "${{ github.repository_owner }}"
+
+      - name: Render banners
+        # deterministic, so this is a no-op unless the palette or template moved
+        run: python3 scripts/render_banners.py
 
       - name: Commit if changed
         run: |

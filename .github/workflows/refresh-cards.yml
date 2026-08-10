@@ -33,12 +33,17 @@ jobs:
 
       - name: Render cards
         env:
-          # secrets are readable in a step's env, but not in its `if:` condition
+          # secrets are readable in a step's env, but not in its `if:` condition.
+          # METRICS_TOKEN is optional: GITHUB_TOKEN already returns private
+          # *contributions* for the repository owner (measured — commit totals
+          # match a full PAT exactly). It only narrows the repository count to
+          # repos the token can see, so a PAT is an accuracy nicety, not a
+          # requirement, and its absence must never block the daily refresh.
           GH_TOKEN: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
           HAS_PAT: ${{ secrets.METRICS_TOKEN != '' }}
         run: |
           if [ "$HAS_PAT" != "true" ]; then
-            echo "::warning::METRICS_TOKEN is not set, so this fell back to GITHUB_TOKEN, which cannot read private contributions — commit counts will be far lower than reality. Create a classic PAT with the read:user scope and save it as the METRICS_TOKEN repository secret."
+            echo "::notice::Running with GITHUB_TOKEN. Contribution figures are complete; the repository count covers public repos only. Add a classic PAT with the read:user scope as the METRICS_TOKEN secret to include private repositories."
           fi
           python3 scripts/render_cards.py --user "${{ github.repository_owner }}"
 

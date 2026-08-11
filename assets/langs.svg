@@ -16,18 +16,18 @@
   <text x="20" y="31" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-weight="700"
         letter-spacing="2.6" fill="#b8860b">MOST USED LANGUAGES</text>
   <path d="M20 40 H 360" stroke="#b8860b" stroke-width="1" stroke-dasharray="1.5 5" opacity="0.55"/>
-  <rect x="24.0" y="58" width="94.3" height="11" rx="2.5" fill="#f5e0a0"/>
-  <rect x="120.3" y="58" width="82.9" height="11" rx="2.5" fill="#e2c076"/>
-  <rect x="205.2" y="58" width="50.8" height="11" rx="2.5" fill="#d0a154"/>
-  <rect x="258.0" y="58" width="37.2" height="11" rx="2.5" fill="#be833f"/>
-  <rect x="297.3" y="58" width="17.2" height="11" rx="2.5" fill="#ad6538"/>
-  <rect x="316.5" y="58" width="13.9" height="11" rx="2.5" fill="#9c4a33"/>
-  <rect x="332.4" y="58" width="21.6" height="11" rx="2.5" fill="#6f6555"/>
-  <circle cx="29" cy="88" r="4.6" fill="#f5e0a0"/><text x="41" y="92" font-family="Georgia, 'Times New Roman', serif" font-size="12.5" fill="#bda06e">Dart <tspan fill="#f0e4c8" font-weight="700">29.0%</tspan></text>
-  <circle cx="201" cy="88" r="4.6" fill="#e2c076"/><text x="213" y="92" font-family="Georgia, 'Times New Roman', serif" font-size="12.5" fill="#bda06e">Python <tspan fill="#f0e4c8" font-weight="700">25.6%</tspan></text>
-  <circle cx="29" cy="110" r="4.6" fill="#d0a154"/><text x="41" y="114" font-family="Georgia, 'Times New Roman', serif" font-size="12.5" fill="#bda06e">HTML <tspan fill="#f0e4c8" font-weight="700">15.9%</tspan></text>
-  <circle cx="201" cy="110" r="4.6" fill="#be833f"/><text x="213" y="114" font-family="Georgia, 'Times New Roman', serif" font-size="12.5" fill="#bda06e">TypeScript <tspan fill="#f0e4c8" font-weight="700">11.8%</tspan></text>
-  <circle cx="29" cy="132" r="4.6" fill="#ad6538"/><text x="41" y="136" font-family="Georgia, 'Times New Roman', serif" font-size="12.5" fill="#bda06e">C++ <tspan fill="#f0e4c8" font-weight="700">5.8%</tspan></text>
-  <circle cx="201" cy="132" r="4.6" fill="#9c4a33"/><text x="213" y="136" font-family="Georgia, 'Times New Roman', serif" font-size="12.5" fill="#bda06e">Swift <tspan fill="#f0e4c8" font-weight="700">4.8%</tspan></text>
-  <circle cx="29" cy="154" r="4.6" fill="#6f6555"/><text x="41" y="158" font-family="Georgia, 'Times New Roman', serif" font-size="12.5" fill="#bda06e">Other <tspan fill="#f0e4c8" font-weight="700">7.1%</tspan></text>
+  <rect x="24.0" y="58" width="92.0" height="11" rx="2.5" fill="#f5e0a0"/>
+  <rect x="118.0" y="58" width="88.9" height="11" rx="2.5" fill="#e2c076"/>
+  <rect x="208.9" y="58" width="49.5" height="11" rx="2.5" fill="#d0a154"/>
+  <rect x="260.4" y="58" width="36.3" height="11" rx="2.5" fill="#be833f"/>
+  <rect x="298.7" y="58" width="16.8" height="11" rx="2.5" fill="#ad6538"/>
+  <rect x="317.5" y="58" width="13.5" height="11" rx="2.5" fill="#9c4a33"/>
+  <rect x="333.0" y="58" width="21.0" height="11" rx="2.5" fill="#6f6555"/>
+  <circle cx="29" cy="88" r="4.6" fill="#f5e0a0"/><text x="41" y="92" font-family="Georgia, 'Times New Roman', serif" font-size="12.5" fill="#bda06e">Dart <tspan fill="#f0e4c8" font-weight="700">28.3%</tspan></text>
+  <circle cx="201" cy="88" r="4.6" fill="#e2c076"/><text x="213" y="92" font-family="Georgia, 'Times New Roman', serif" font-size="12.5" fill="#bda06e">Python <tspan fill="#f0e4c8" font-weight="700">27.4%</tspan></text>
+  <circle cx="29" cy="110" r="4.6" fill="#d0a154"/><text x="41" y="114" font-family="Georgia, 'Times New Roman', serif" font-size="12.5" fill="#bda06e">HTML <tspan fill="#f0e4c8" font-weight="700">15.5%</tspan></text>
+  <circle cx="201" cy="110" r="4.6" fill="#be833f"/><text x="213" y="114" font-family="Georgia, 'Times New Roman', serif" font-size="12.5" fill="#bda06e">TypeScript <tspan fill="#f0e4c8" font-weight="700">11.5%</tspan></text>
+  <circle cx="29" cy="132" r="4.6" fill="#ad6538"/><text x="41" y="136" font-family="Georgia, 'Times New Roman', serif" font-size="12.5" fill="#bda06e">C++ <tspan fill="#f0e4c8" font-weight="700">5.6%</tspan></text>
+  <circle cx="201" cy="132" r="4.6" fill="#9c4a33"/><text x="213" y="136" font-family="Georgia, 'Times New Roman', serif" font-size="12.5" fill="#bda06e">Swift <tspan fill="#f0e4c8" font-weight="700">4.7%</tspan></text>
+  <circle cx="29" cy="154" r="4.6" fill="#6f6555"/><text x="41" y="158" font-family="Georgia, 'Times New Roman', serif" font-size="12.5" fill="#bda06e">Other <tspan fill="#f0e4c8" font-weight="700">6.9%</tspan></text>
 </svg>

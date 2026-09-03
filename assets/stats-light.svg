@@ -23,7 +23,7 @@
   <text x="24" y="168" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#6b5320">Repositories</text><text x="215" y="168" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" font-weight="700" text-anchor="end" fill="#2b1e08">33</text>
   <circle cx="345" cy="118" r="43" fill="none" stroke="#8a6a1e" stroke-width="5" opacity="0.22"/>
   <circle cx="345" cy="118" r="43" fill="none" stroke="#a87c1c" stroke-width="5"
-          stroke-linecap="round" stroke-dasharray="126.4 270.2"
+          stroke-linecap="round" stroke-dasharray="126.6 270.2"
           transform="rotate(-90 345 118)"/>
   <text x="345" y="127" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700"
         text-anchor="middle" fill="#2b1e08">B</text>

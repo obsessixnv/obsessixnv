@@ -19,18 +19,18 @@
   <path d="M56 214.0 H 866" stroke="#3a2c18" stroke-width="1"/>
   <text x="47" y="218.0" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" text-anchor="end" fill="#8a7350">0</text>
   <path d="M56 144.0 H 866" stroke="#3a2c18" stroke-width="1"/>
-  <text x="47" y="148.0" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" text-anchor="end" fill="#8a7350">36</text>
+  <text x="47" y="148.0" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" text-anchor="end" fill="#8a7350">46</text>
   <path d="M56 74.0 H 866" stroke="#3a2c18" stroke-width="1"/>
-  <text x="47" y="78.0" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" text-anchor="end" fill="#8a7350">73</text>
-  <polygon points="56,214 56.0,214.0 83.9,143.0 111.9,208.2 139.8,160.3 167.7,179.5 195.7,206.3 223.6,214.0 251.5,214.0 279.4,194.8 307.4,152.6 335.3,121.9 363.2,185.2 391.2,198.7 419.1,214.0 447.0,214.0 475.0,214.0 502.9,104.7 530.8,74.0 558.8,162.2 586.7,208.2 614.6,214.0 642.6,214.0 670.5,198.7 698.4,194.8 726.3,171.8 754.3,139.2 782.2,202.5 810.1,214.0 838.1,214.0 866.0,214.0 866,214" fill="#e7c469" opacity="0.13"/>
-  <polyline points="56.0,214.0 83.9,143.0 111.9,208.2 139.8,160.3 167.7,179.5 195.7,206.3 223.6,214.0 251.5,214.0 279.4,194.8 307.4,152.6 335.3,121.9 363.2,185.2 391.2,198.7 419.1,214.0 447.0,214.0 475.0,214.0 502.9,104.7 530.8,74.0 558.8,162.2 586.7,208.2 614.6,214.0 642.6,214.0 670.5,198.7 698.4,194.8 726.3,171.8 754.3,139.2 782.2,202.5 810.1,214.0 838.1,214.0 866.0,214.0" fill="none" stroke="#e7c469" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-  <circle cx="530.8" cy="74.0" r="4" fill="#a8412a" stroke="#14100a" stroke-width="2"/>
-  <text x="530.8" y="63.0" font-family="Georgia, 'Times New Roman', serif" font-size="11.5" font-weight="700" text-anchor="middle" fill="#f0e4c8">73</text>
-  <text x="56.0" y="232.0" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" text-anchor="middle" fill="#8a7350">9 Aug</text>
-  <text x="195.7" y="232.0" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" text-anchor="middle" fill="#8a7350">14 Aug</text>
-  <text x="335.3" y="232.0" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" text-anchor="middle" fill="#8a7350">19 Aug</text>
-  <text x="475.0" y="232.0" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" text-anchor="middle" fill="#8a7350">24 Aug</text>
-  <text x="614.6" y="232.0" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" text-anchor="middle" fill="#8a7350">29 Aug</text>
-  <text x="754.3" y="232.0" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" text-anchor="middle" fill="#8a7350">3 Sep</text>
+  <text x="47" y="78.0" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" text-anchor="end" fill="#8a7350">91</text>
+  <polygon points="56,214 56.0,157.1 83.9,209.4 111.9,170.9 139.8,186.3 167.7,207.8 195.7,214.0 223.6,214.0 251.5,198.6 279.4,164.8 307.4,140.2 335.3,190.9 363.2,201.7 391.2,214.0 419.1,214.0 447.0,214.0 475.0,126.3 502.9,101.7 530.8,172.5 558.8,209.4 586.7,214.0 614.6,214.0 642.6,201.7 670.5,198.6 698.4,180.2 726.3,154.0 754.3,204.8 782.2,214.0 810.1,214.0 838.1,74.0 866.0,175.5 866,214" fill="#e7c469" opacity="0.13"/>
+  <polyline points="56.0,157.1 83.9,209.4 111.9,170.9 139.8,186.3 167.7,207.8 195.7,214.0 223.6,214.0 251.5,198.6 279.4,164.8 307.4,140.2 335.3,190.9 363.2,201.7 391.2,214.0 419.1,214.0 447.0,214.0 475.0,126.3 502.9,101.7 530.8,172.5 558.8,209.4 586.7,214.0 614.6,214.0 642.6,201.7 670.5,198.6 698.4,180.2 726.3,154.0 754.3,204.8 782.2,214.0 810.1,214.0 838.1,74.0 866.0,175.5" fill="none" stroke="#e7c469" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="838.1" cy="74.0" r="4" fill="#a8412a" stroke="#14100a" stroke-width="2"/>
+  <text x="838.1" y="63.0" font-family="Georgia, 'Times New Roman', serif" font-size="11.5" font-weight="700" text-anchor="end" fill="#f0e4c8">91</text>
+  <text x="56.0" y="232.0" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" text-anchor="middle" fill="#8a7350">10 Aug</text>
+  <text x="195.7" y="232.0" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" text-anchor="middle" fill="#8a7350">15 Aug</text>
+  <text x="335.3" y="232.0" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" text-anchor="middle" fill="#8a7350">20 Aug</text>
+  <text x="475.0" y="232.0" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" text-anchor="middle" fill="#8a7350">25 Aug</text>
+  <text x="614.6" y="232.0" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" text-anchor="middle" fill="#8a7350">30 Aug</text>
+  <text x="754.3" y="232.0" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" text-anchor="middle" fill="#8a7350">4 Sep</text>
   <text x="461" y="56" font-family="Georgia, 'Times New Roman', serif" font-size="12.5" font-style="italic" text-anchor="middle" fill="#bda06e">Nulla dies sine linea — contributions, last 30 days</text>
 </svg>

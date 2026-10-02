@@ -22,15 +22,15 @@
   <text x="47" y="148.0" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" text-anchor="end" fill="#8a7350">66</text>
   <path d="M56 74.0 H 866" stroke="#3a2c18" stroke-width="1"/>
   <text x="47" y="78.0" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" text-anchor="end" fill="#8a7350">132</text>
-  <polygon points="56,214 56.0,190.7 83.9,172.6 111.9,207.6 139.8,214.0 167.7,214.0 195.7,117.5 223.6,152.5 251.5,192.8 279.4,198.1 307.4,208.7 335.3,214.0 363.2,214.0 391.2,171.6 419.1,129.2 447.0,203.4 475.0,142.9 502.9,214.0 530.8,214.0 558.8,214.0 586.7,206.6 614.6,169.5 642.6,74.0 670.5,80.4 698.4,214.0 726.3,214.0 754.3,214.0 782.2,208.7 810.1,139.8 838.1,196.0 866.0,167.3 866,214" fill="#e7c469" opacity="0.13"/>
-  <polyline points="56.0,190.7 83.9,172.6 111.9,207.6 139.8,214.0 167.7,214.0 195.7,117.5 223.6,152.5 251.5,192.8 279.4,198.1 307.4,208.7 335.3,214.0 363.2,214.0 391.2,171.6 419.1,129.2 447.0,203.4 475.0,142.9 502.9,214.0 530.8,214.0 558.8,214.0 586.7,206.6 614.6,169.5 642.6,74.0 670.5,80.4 698.4,214.0 726.3,214.0 754.3,214.0 782.2,208.7 810.1,139.8 838.1,196.0 866.0,167.3" fill="none" stroke="#e7c469" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-  <circle cx="642.6" cy="74.0" r="4" fill="#a8412a" stroke="#14100a" stroke-width="2"/>
-  <text x="642.6" y="63.0" font-family="Georgia, 'Times New Roman', serif" font-size="11.5" font-weight="700" text-anchor="middle" fill="#f0e4c8">132</text>
-  <text x="56.0" y="232.0" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" text-anchor="middle" fill="#8a7350">2 Sep</text>
-  <text x="195.7" y="232.0" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" text-anchor="middle" fill="#8a7350">7 Sep</text>
-  <text x="335.3" y="232.0" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" text-anchor="middle" fill="#8a7350">12 Sep</text>
-  <text x="475.0" y="232.0" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" text-anchor="middle" fill="#8a7350">17 Sep</text>
-  <text x="614.6" y="232.0" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" text-anchor="middle" fill="#8a7350">22 Sep</text>
-  <text x="754.3" y="232.0" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" text-anchor="middle" fill="#8a7350">27 Sep</text>
+  <polygon points="56,214 56.0,172.6 83.9,207.6 111.9,214.0 139.8,214.0 167.7,117.5 195.7,152.5 223.6,192.8 251.5,198.1 279.4,208.7 307.4,214.0 335.3,214.0 363.2,171.6 391.2,129.2 419.1,203.4 447.0,142.9 475.0,214.0 502.9,214.0 530.8,214.0 558.8,206.6 586.7,169.5 614.6,74.0 642.6,80.4 670.5,214.0 698.4,214.0 726.3,214.0 754.3,208.7 782.2,139.8 810.1,196.0 838.1,145.1 866.0,201.3 866,214" fill="#e7c469" opacity="0.13"/>
+  <polyline points="56.0,172.6 83.9,207.6 111.9,214.0 139.8,214.0 167.7,117.5 195.7,152.5 223.6,192.8 251.5,198.1 279.4,208.7 307.4,214.0 335.3,214.0 363.2,171.6 391.2,129.2 419.1,203.4 447.0,142.9 475.0,214.0 502.9,214.0 530.8,214.0 558.8,206.6 586.7,169.5 614.6,74.0 642.6,80.4 670.5,214.0 698.4,214.0 726.3,214.0 754.3,208.7 782.2,139.8 810.1,196.0 838.1,145.1 866.0,201.3" fill="none" stroke="#e7c469" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="614.6" cy="74.0" r="4" fill="#a8412a" stroke="#14100a" stroke-width="2"/>
+  <text x="614.6" y="63.0" font-family="Georgia, 'Times New Roman', serif" font-size="11.5" font-weight="700" text-anchor="middle" fill="#f0e4c8">132</text>
+  <text x="56.0" y="232.0" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" text-anchor="middle" fill="#8a7350">3 Sep</text>
+  <text x="195.7" y="232.0" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" text-anchor="middle" fill="#8a7350">8 Sep</text>
+  <text x="335.3" y="232.0" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" text-anchor="middle" fill="#8a7350">13 Sep</text>
+  <text x="475.0" y="232.0" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" text-anchor="middle" fill="#8a7350">18 Sep</text>
+  <text x="614.6" y="232.0" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" text-anchor="middle" fill="#8a7350">23 Sep</text>
+  <text x="754.3" y="232.0" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" text-anchor="middle" fill="#8a7350">28 Sep</text>
   <text x="461" y="56" font-family="Georgia, 'Times New Roman', serif" font-size="12.5" font-style="italic" text-anchor="middle" fill="#bda06e">Nulla dies sine linea — contributions, last 30 days</text>
 </svg>
